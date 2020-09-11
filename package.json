@@ -1,0 +1,14 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel ./*.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  }
+}

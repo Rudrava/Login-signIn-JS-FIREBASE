@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<form>
+			<button class="btn-smol logOut hidden">Log Out</button>
+            <button class="btn btn-ghost signInWithG">
+                <img src="images/google.png" alt="">
+                 Log in with Google
+            </button>
+
+            <small>or</small>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email " value="rudravamukherjee.2001@gmail.com" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password"  value="Rudra1@google"placeholder="Password">
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+
+                <a href="#">Forgot Password</a>
+            </div>
+
+            <button class="btn logIn">Log In</button>
+
+            <small>Don't have an account? <a href="#" class="signIn">Sign up</a></small>
+        </form>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+  <script src="app.js"></script>
+</body>
+
+
+</html>
